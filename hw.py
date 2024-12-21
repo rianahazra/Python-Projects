@@ -1,22 +1,25 @@
-#area of a square
-import math
-s=int(input("Enter side:"))
-area=s**2
-print(f'Area of square with side {s} is {area:.2f}')
-perimeter=4*s
-print(f'Perimeter of square with side {s} is {perimeter:.2f}')
-
-#area of a rectangle
-import math
-l=int(input("Enter length:"))
-h=int(input("Enter height:"))
-area=l*h
-print(f'Area of square with length {l} and height {h} is {area:.2f}')
-perimeter= 2*(l+h)
-print(f'Perimeter of square with length {l} and height {h} is {perimeter:.2f}')
-
-#character name
-name=input("Enter your name:")
-hobby=input("Enter your hobby:")
-print((f'My name is {name} and I love to do {hobby} in my free time.'))
-
+print("Menu")
+print("Create a file\n1.Read a file\n2.Append a file\n3.Quit\n")
+name=input("Write file name")
+file=open(name, "w")
+wr=input("Write something in the file")
+file.write(wr)
+file.close()
+while True:    
+    choice=input("Enter your choice(1-4):")
+    if choice=="1":
+        file=open(name, "r")
+        content=file.read()
+        print("file contents\n")
+        print(content)
+        file.close()
+    elif choice=="2":
+        file=open(name, "a")
+        e=input("Write something in the file")
+        file.write(e)
+        file.close()
+    elif choice=="3":
+        print("Thank you")
+        break 
+    else:
+        print("Enter valid number between 1-4")
