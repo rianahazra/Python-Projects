@@ -1,4 +1,4 @@
-##Python Projects Collection
+# Python Projects Collection
 
 Welcome to my collection of Python projects! This repository contains a variety of Python scripts and applications demonstrating fundamental programming concepts and practical applications.
 
@@ -14,17 +14,17 @@ Functions: Custom function definitions
 
 Modules & Libraries:
 
-*os – Interacting with the operating system
+* os – Interacting with the operating system
 
-*re – Regular expressions for pattern matching
+* re – Regular expressions for pattern matching
 
-*turtle – Graphics and drawing
+* turtle – Graphics and drawing
 
-*time – Time-related functions
+* time – Time-related functions
 
-*math – Mathematical operations
+* math – Mathematical operations
 
-*pyautogui – GUI automation
+* pyautogui – GUI automation
 
 🎮 Projects Included
 
