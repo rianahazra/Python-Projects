@@ -8,7 +8,9 @@ This repository includes files that utilize essential programming concepts in Py
 * Core Python Concepts: Dictionaries, Tuples, Lists
 * Control Flow: if and else statements
 * Functions: Custom function definitions
+  
 * Modules & Libraries:
+  
 ** os – Interacting with the operating system
 ** re – Regular expressions for pattern matching
 ** turtle – Graphics and drawing
