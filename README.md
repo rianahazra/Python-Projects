@@ -5,18 +5,19 @@ Welcome to my collection of Python projects! This repository contains a variety 
 ## 📌 About This Repository
 
 This repository includes files that utilize essential programming concepts in Python such as:
-* Core Python Concepts: Dictionaries, Tuples, Lists
-* Control Flow: if and else statements
-* Functions: Custom function definitions
-  
-* Modules & Libraries:
-  
-** os – Interacting with the operating system
-** re – Regular expressions for pattern matching
-** turtle – Graphics and drawing
-** time – Time-related functions
-** math – Mathematical operations
-** pyautogui – GUI automation
+### Core Python Concepts: 
+Dictionaries, Tuples, Lists
+### Control Flow: 
+if and else statements
+### Functions: 
+Custom function definitions
+### Modules & Libraries:
+* os – Interacting with the operating system
+* re – Regular expressions for pattern matching
+* turtle – Graphics and drawing
+* time – Time-related functions
+* math – Mathematical operations
+* pyautogui – GUI automation
   
 ## 🎮 Projects Included
 
